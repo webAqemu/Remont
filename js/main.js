@@ -27,6 +27,6 @@ $('.call-btn').click(function () {
 	$('.overlay-popup').show();
 });
 
-$('.overlay-popup').click(function () {
+$('.overlay-popup, .popup-call__remove').click(function () {
 	$('.overlay-popup, .popup').hide();
 });

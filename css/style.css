@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?eapljo');
-  src:  url('../fonts/icomoon.eot?eapljo#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?eapljo') format('truetype'),
-    url('../fonts/icomoon.woff?eapljo') format('woff'),
-    url('../fonts/icomoon.svg?eapljo#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?s6ol13');
+  src:  url('../fonts/icomoon.eot?s6ol13#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?s6ol13') format('truetype'),
+    url('../fonts/icomoon.woff?s6ol13') format('woff'),
+    url('../fonts/icomoon.svg?s6ol13#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,15 @@
 
 .icon-user:before {
   content: "\f007";
+}
+.icon-close:before {
+  content: "\f00d";
+}
+.icon-remove:before {
+  content: "\f00d";
+}
+.icon-times:before {
+  content: "\f00d";
 }
 .icon-clock-o:before {
   content: "\f017";
@@ -827,6 +836,25 @@ body {
 	color: #ffffff;
 	z-index: 15;
 	padding: 30px 40px;
+}
+
+.popup-call__remove {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	width: 23px;
+	height: 23px;
+	cursor: pointer;
+}
+
+.popup-call__remove::after {
+	content: "\f00d";
+	font-family: 'icomoon';
+	color: #fed136;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	font-size: 30px;
 }
 
 .popup-call__title {

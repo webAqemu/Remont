@@ -218,5 +218,59 @@
 	.popup-call {
 		padding: 20px 10px;
 	}
+
+	.popup-call__remove {
+		position: absolute;
+		right: 7px;
+		top: 7px;
+	}
 	
+	.popup-call__remove::after {
+		content: "\f00d";
+		font-family: 'icomoon';
+		color: #fed136;
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		font-size: 20px;
+	}
+	
+}
+
+@media(max-height: 460px) {
+	.main-screen {
+		padding: 60px;
+	}
+
+	.main-screen__title {
+		font-size: 30px;
+		line-height: 40px;
+		margin-bottom: 0;
+	}
+
+	.main-screen__text {
+		margin-bottom: 10px;
+		font-size: 20px;
+	}
+
+	.popup-call {
+		min-height: calc(100% - 40px);
+		top: 20px;
+		bottom: 20px;
+	}
+
+	.popup-call__icon {
+		display: none;
+	}
+
+	.popup-call__info {
+		margin-top: 10px;
+	}
+}
+
+@media(max-height: 650px) {
+	.popup-call {
+		min-height: calc(100% - 100px);
+		top: 20px;
+	}
 }
