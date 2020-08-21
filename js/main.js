@@ -18,7 +18,7 @@ $(function () {
 });
 
 jQuery(function ($) {
-	$("input[type='tel']").mask("+7 (999)999-99-99", { placeholder: "_" });
+	$("input[type='tel']").mask("+38 (999)999-99-99", { placeholder: "_" });
 });
 
 $('.call-btn').click(function () {

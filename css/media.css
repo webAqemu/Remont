@@ -111,12 +111,9 @@
 	.services,
 	.how,
 	.work-time,
-	.request {
-		padding: 40px 0;
-	}
-
+	.request,
 	.comments {
-		padding: 40px 0 20px;
+		padding: 40px 0;
 	}
 
 	.services__item {
